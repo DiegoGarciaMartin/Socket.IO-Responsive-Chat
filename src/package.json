@@ -1,0 +1,43 @@
+{
+  "name": "socket.io.responsive.chat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Socket.IO Responsive Chat",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "prestart": "npm run build",
+    "start": "node app.js",
+    "debug": "npm run build && node-debug app.js",
+    "build": "npm run clean && npm run build-js && npm run build-css",
+    "build-js": "uglifyjs public/js/chat.js --output public/js/chat.min.js --compress --mangle",
+    "build-css": "uglifycss public/css/chat.css > public/css/chat.min.css",
+    "clean": "rimraf ./log/* && rimraf ./log && rimraf ./public/js/chat.min.js && rimraf ./public/css/chat.min.css"
+  },
+  "author": "Diego GM",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "1.14.2",
+    "compression": "^1.6.2",
+    "express": "4.13.4",
+    "log4js": "^0.6.36",
+    "serve-favicon": "2.3.0",
+    "socket.io": "1.4.5",
+    "socket.io-client": "1.4.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "node-inspector": "^0.12.8",
+    "rimraf": "^2.5.2",
+    "uglifycss": "0.0.20",
+    "uglifyjs": "^2.4.10"
+  },
+  "bin": {
+    "node-debug": "./node_modules/.bin/node-debug",
+    "node-inspector": "./node_modules/.bin/node-inspector",
+    "mocha": "./node_modules/.bin/mocha",
+    "uglifycss": "./node_modules/.bin/uglifycss",
+    "uglifyjs": "./node_modules/.bin/uglifyjs",
+    "rimraf": "./node_modules/.bin/rimraf"
+  }
+}
