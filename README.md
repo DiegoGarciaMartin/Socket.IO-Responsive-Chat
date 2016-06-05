@@ -7,49 +7,49 @@ An implementation of a responsive chat with NodeJS and Socket.IO.
 
 #### Computer screen
 
-<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_01.png">
+<img height="400px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_01.png">
 
-<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_07.png">
+<img height="400px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_07.png">
 
-<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_08.png">
+<img height="400px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_08.png">
 
-<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_11.png">
+<img height="400px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_11.png">
 
-<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_12.png">
+<img height="400px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_12.png">
 
 #### Mobile screen
 
 <table>
 	<tr>
 		<td>
-			<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_02.png">
+			<img height="400px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_02.png">
 		</td>
 		<td>
-			<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_03.png">
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_04.png">
-		</td>
-		<td>
-			<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_05.png">
+			<img height="400px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_03.png">
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_06.png">
+			<img height="400px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_04.png">
 		</td>
 		<td>
-			<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_09.png">
+			<img height="400px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_05.png">
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_10.png">
+			<img height="400px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_06.png">
 		</td>
 		<td>
-			<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_13.png">
+			<img height="400px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_09.png">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img height="400px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_10.png">
+		</td>
+		<td>
+			<img height="400px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_13.png">
 		</td>
 	</tr>
 <table>
@@ -67,19 +67,25 @@ An implementation of a responsive chat with NodeJS and Socket.IO.
 ### How to run
 <hr>
 
-<div class="highlight highlight-source-shell">
-
-	<span class="pl-c"># Clone repository</span>
-	$ git clone https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat.git
-
-	<span class="pl-c"># Enter the directory</span>
-	$ cd Socket.IO Responsive Chat/src
-
-	<span class="pl-c"># Install dependencies</span>
-	$ npm install
-
-	<span class="pl-c"># Execute app</span>
-	$ npm start
+<div>
+	<ul>
+		<li>
+			<span>Clone repository</span><br>
+			<span>$ git clone https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat.git</span>
+		</li>
+		<li>
+			<span>Enter the directory</span><br>
+			<span>$ cd Socket.IO Responsive Chat/src</span>
+		</li>
+		<li>
+			<span>Install dependencies</span><br>
+			<span>$ npm install</span>
+		</li>
+		<li>
+			<span>Execute app</span><br>
+			<span>$ npm start</span>
+		</li>
+	</ul>
 
 </div>
 
