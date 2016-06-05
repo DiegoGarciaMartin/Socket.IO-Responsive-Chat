@@ -71,7 +71,7 @@ An implementation of a responsive chat with NodeJS and Socket.IO.
 	<ul>
 		<li>
 			<span>Clone repository</span><br>
-			<span>$ git clone https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat.git</span>
+			<span>$ git clone https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat</span>
 		</li>
 		<li>
 			<span>Enter the directory</span><br>
