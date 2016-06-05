@@ -22,7 +22,7 @@ An implementation of a responsive chat with NodeJS and Socket.IO.
 <table>
 	<tr>
 		<td>
-			<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_01.png">
+			<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_02.png">
 		</td>
 		<td>
 			<img height="450px;" src="https://raw.githubusercontent.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/master/screenshots/Screenshot_SocketIO%20Chat_03.png">
