@@ -7,49 +7,49 @@ An implementation of a responsive chat with NodeJS and Socket.IO.
 
 #### Computer screen
 
-<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO Chat_01.png">
+<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO%20Chat_01.png">
 
-<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO Chat_07.png">
+<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO%20Chat_07.png">
 
-<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO Chat_08.png">
+<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO%20Chat_08.png">
 
-<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO Chat_11.png">
+<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO%20Chat_11.png">
 
-<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO Chat_12.png">
+<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO%20Chat_12.png">
 
 #### Mobile screen
 
 <table>
 	<tr>
 		<td>
-			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO Chat_01.png">
+			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO%20Chat_01.png">
 		</td>
 		<td>
-			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO Chat_03.png">
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO Chat_04.png">
-		</td>
-		<td>
-			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO Chat_05.png">
+			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO%20Chat_03.png">
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO Chat_06.png">
+			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO%20Chat_04.png">
 		</td>
 		<td>
-			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO Chat_09.png">
+			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO%20Chat_05.png">
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO Chat_10.png">
+			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO%20Chat_06.png">
 		</td>
 		<td>
-			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO Chat_13.png">
+			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO%20Chat_09.png">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO%20Chat_10.png">
+		</td>
+		<td>
+			<img height="450px;" src="https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/blob/master/Screenshot_SocketIO%20Chat_13.png">
 		</td>
 	</tr>
 <table>
