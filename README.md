@@ -71,19 +71,19 @@ An implementation of a responsive chat with NodeJS and Socket.IO.
 	<ul>
 		<li>
 			<span>Clone repository</span><br>
-			<span>$ git clone https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat</span>
+			<span>> git clone https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat</span>
 		</li>
 		<li>
-			<span>Enter the directory</span><br>
-			<span>$ cd Socket.IO Responsive Chat/src</span>
+			<span style="font-weight: bold;">Enter the directory</span><br>
+			<span>> cd Socket.IO-Responsive-Chat/src</span>
 		</li>
 		<li>
-			<span>Install dependencies</span><br>
-			<span>$ npm install</span>
+			<span style="font-weight: bold;">Install dependencies</span><br>
+			<span>> npm install</span>
 		</li>
 		<li>
-			<span>Execute app</span><br>
-			<span>$ npm start</span>
+			<span style="font-weight: bold;">Execute app</span><br>
+			<span>> npm start</span>
 		</li>
 	</ul>
 
@@ -93,6 +93,15 @@ It is very important use the npm to start the app, because the scripts of npm ge
 
 And point your browser to http://localhost:5555
 
+
+### Test
+<hr>
+
+Tests performed with <a href="https://mochajs.org/">Mocha</a>
+
+To run test, execute the app in one terminal: npm start
+
+In other terminar, execute the tests: npm test
 
 ### Features
 <hr>
