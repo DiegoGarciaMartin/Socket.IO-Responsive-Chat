@@ -1,28 +1,29 @@
 {
-    "appenders": [
-    {
-        "type": "clustered",
-        "appenders": [
-        {
-            "type": "dateFile",
-            "filename": "log/access.log",
-            "pattern": "-yyyy-MM-dd",
-            "category": "http"
-        },
-        {
-          "type": "file",
-          "filename": "log/app.log",
-          "category": "app"
-        },
-        {
-            "type": "logLevelFilter",
-            "level": "ERROR",
-            "appender":
-            {
-                "type": "dateFile",
-                "filename": "log/errors.log",
-                "pattern": "-yyyy-MM-dd"
-            }
-        }]
-    }]
+  "appenders": {
+    "access": {
+      "type": "dateFile",
+      "filename": "log/access.log",
+      "pattern": "-yyyy-MM-dd",
+      "category": "http"
+    },
+    "app": {
+      "type": "file",
+      "filename": "log/app.log",
+      "category": "app"
+    },
+    "errorFile": {
+      "type": "dateFile",
+      "filename": "log/errors.log",
+      "pattern": "-yyyy-MM-dd"
+    },
+    "errors": {
+      "type": "logLevelFilter",
+      "level": "ERROR",
+      "appender": "errorFile"
+    }
+  },
+  "categories": {
+    "default": { "appenders": [ "app", "errors" ], "level": "DEBUG" },
+    "http": { "appenders": [ "access"], "level": "DEBUG" }
+  }
 }

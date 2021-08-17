@@ -463,7 +463,7 @@ describe('> Chat rooms', function() {
 					var msg = {};
 					msg.text = "Hello world";
 					msg.room = chatRoom;
-            		socketUser.emit('sendMessageRoom', msg);
+            socketUser.emit('sendMessageRoom', msg);
 				}
 
 			}

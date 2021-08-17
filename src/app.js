@@ -22,6 +22,7 @@ try {
 var app = express();
 
 app.use(express.static(__dirname + '/public'));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 app.use(compression());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
@@ -32,12 +33,10 @@ app.use(bodyParser.urlencoded({
 log4js.configure('./config/log4js.json');
 
 var log = log4js.getLogger("app");
-var logError = log4js.getLogger("SocketError");
+var logError = log4js.getLogger("Errors");
 
 // Generate log file of access
-app.use(log4js.connectLogger(log4js.getLogger("http"), {
-	level: 'auto'
-}));
+app.use(log4js.connectLogger(log4js.getLogger("http"), { level: 'auto' }));
 
 // Error handler
 app.use(function(err, req, res, next) {
