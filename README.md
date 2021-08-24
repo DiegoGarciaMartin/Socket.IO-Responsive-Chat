@@ -1,3 +1,5 @@
+[![CI](https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/actions/workflows/main.yml/badge.svg)](https://github.com/DiegoGarciaMartin/Socket.IO-Responsive-Chat/actions/workflows/main.yml)
+
 # Socket.IO Responsive Chat
 
 An implementation of a responsive chat with NodeJS and Socket.IO.
